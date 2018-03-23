@@ -127,7 +127,7 @@
 
 /* info */
 .info{
-    margin-top: 270px;      /* 属性的上外边距 */
+    margin-top: 450px;      /* 属性的上外边距 */
     text-align: center;     /* 所有文本中间对齐 */
 }
 
@@ -171,6 +171,7 @@
     margin-left: -5px;
     margin-top: -10px;
 }
+
 
 
 
