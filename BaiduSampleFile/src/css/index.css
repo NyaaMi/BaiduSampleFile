@@ -83,15 +83,16 @@
 }
 
 
-.search .keyWord form{
-    display: inline-block;      /*变为不独占一行的块级元素*/
+.search .keyWord form div{
+    display: inline-block;      /*变为独占一行的块级元素*/
 }
 
 
-.search .keyWord form .inpWrapper{
-    position: relative;     /* 设置相对定位 */
+/* 设置相对定位 */
+/.search .keyWord form .inpWrapper{
+    position: relative;                            
 
-}
+} 
 
 
 /* 设置输入框 */
@@ -106,8 +107,8 @@
     position: absolute;
     right: 10px;
     top: 50%;
-    width: 18px;
-    height: 16px;
+    width: 30px;
+    height: 30px;
     background-image: url("../img/camera.png");     /* 在元素背景中添加一个图案 */
 }
 
@@ -115,7 +116,7 @@
 /* 设置提交按钮 */
 .search .keyWord form .btnWrapper input{
     width: 100px;
-    height: 36px;
+    height: 38px;
     background: #3385ff;
     cursor: pointer;
     color: #0fff;
@@ -146,7 +147,7 @@
 
 
 .info .message{
-    margin-top: 15px;
+    margin-top: 15px;       /* 设置上边距 */
 }
 
 .info .message p{
@@ -164,3 +165,12 @@
     color: #999;
     font-size: 12px;
 }
+
+
+.search .btnWrapper{
+    margin-left: -5px;
+    margin-top: -10px;
+}
+
+
+
