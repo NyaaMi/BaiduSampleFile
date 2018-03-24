@@ -103,13 +103,12 @@
 }
 
 
+/* 在元素背景中添加一个图案 */
 .search .keyWord form .inpWrapper span{
     position: absolute;
-    right: 10px;
-    top: 50%;
     width: 30px;
     height: 30px;
-    background-image: url("../img/camera.png");     /* 在元素背景中添加一个图案 */
+    background-image: url("../camera.png");
 }
 
 
